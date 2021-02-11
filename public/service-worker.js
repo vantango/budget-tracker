@@ -27,8 +27,7 @@ self.addEventListener("install", function (evt) {
     // tell the browser to activate this service worker immediately once it
     // has finished installing
     self.skipWaiting();
-
-
+    
 });
 
 // activate
